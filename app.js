@@ -62,7 +62,7 @@ function generarNumeroSecreto(){
 
 //condiciones para iniciar el juego
 function condicionesIniciales(){
-    asignarTextoElemento('h1',"Hora del Desafío!!!");
+    asignarTextoElemento('h1',"Hora de Jugar!!!");
     asignarTextoElemento('p',`Ingrese un número del 1 al ${numeroMaximo}:`);
     //generar número secreto
     numeroSecreto = generarNumeroSecreto();
